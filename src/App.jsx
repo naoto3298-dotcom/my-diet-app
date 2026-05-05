@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect } from 'react';
+ximport React, { useState, useMemo, useEffect } from 'react';
 import { Plus, Trash2, Utensils, Coffee, Sun, Moon, PieChart, Sparkles, Bookmark, AlertCircle, ChevronLeft, ChevronRight, Calendar, ChevronDown, ChevronUp, X, Clock, Search, Zap, Globe, Settings, Database, User, Activity, Save, Target, Folder, ArrowRightLeft, Monitor, Home } from 'lucide-react';
 import { initializeApp } from 'firebase/app';
 import { getAuth, signInWithCustomToken, signInAnonymously, onAuthStateChanged, setPersistence, browserLocalPersistence } from 'firebase/auth';
